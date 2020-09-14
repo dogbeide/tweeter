@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  background-color: #cf9400;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
