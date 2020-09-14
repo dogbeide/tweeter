@@ -11,6 +11,7 @@ nav {
 #tweeter-logo {
   align-self: flex-end;
   font-family: 'Bungee', cursive, sans-serif;
+  font-size: 1.6em;
 }
 
 #btn-write-new {
