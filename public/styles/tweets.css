@@ -9,6 +9,13 @@
   margin: 13px 0;
   padding: 8px 13px;
 }
+.tweet:hover {
+  box-shadow: #c0c0c0 4px 4px;
+  font-weight: bold;
+}
+.tweet:hover header > span {
+  display: inline;
+}
 
 .tweet header {
   background: #f4f1ec;
@@ -20,6 +27,7 @@
 .tweet header > span {
   color: #c0c0c0;
   font-weight: bold;
+  display: none;
 }
 .tweet header > div span {
   margin-right: 10px;
