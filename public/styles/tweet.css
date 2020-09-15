@@ -1,0 +1,36 @@
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#tweet-text{
+  background: #f4f1ec;
+  border: none;
+  border-bottom: 4px solid #555149;
+  padding-bottom: 13px;
+  height: auto;
+  resize: none;
+}
+#tweet-text:focus {
+  outline: none;
+}
+
+.tweet-submit-counter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.tweet-submit {
+  font-family: 'Bungee', cursive, sans-serif;
+  color: #ffffff;
+  background-color: #4056A1;
+}
+.counter {
+  font-family: 'Bungee', cursive, sans-serif;
+}
