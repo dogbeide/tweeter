@@ -31,6 +31,10 @@
   color: #ffffff;
   background-color: #4056A1;
 }
+#tweet-submit:focus {
+  outline: none;
+}
+
 .counter {
   font-family: 'Bungee', cursive, sans-serif;
 }
