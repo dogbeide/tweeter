@@ -24,14 +24,21 @@
   align-items: center;
   padding: 10px;
 }
+.tweet header > div {
+  display: flex;
+  align-items: center;
+}
 .tweet header > span {
   color: #c0c0c0;
   font-weight: bold;
   display: none;
 }
-.tweet header > div span {
-  margin-right: 10px;
+.tweet header img {
+  margin-right: 13px;
 }
+/* .tweet header > div span {
+  margin-right: 10px;
+} */
 
 .tweet main {
   border-bottom: 4px solid #555149;
