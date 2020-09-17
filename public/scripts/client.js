@@ -20,6 +20,7 @@ $(function() {
         data
       }).done(function(response) {
         form.trigger('reset');
+        loadTweets();
       }).fail(function(error, status) {
         console.log(status);
       });
