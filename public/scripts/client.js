@@ -19,10 +19,9 @@ $(function() {
         type: method,
         data
       }).done(function(response) {
-        console.log("response", response);
         form.trigger('reset');
       }).fail(function(error, status) {
-        console.log(error, status);
+        console.log(status);
       });
     });
   });
