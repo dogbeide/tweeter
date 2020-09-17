@@ -38,6 +38,7 @@ const loadTweets = function () {
 
 const createTweetElement = function(datum) {
   // TODO: time ago calculation
+
   const $tweet = $(
     `<article class="tweet">
       <header>
@@ -48,7 +49,7 @@ const createTweetElement = function(datum) {
         <span>${datum.user.handle}</span>
       </header>
       <main>
-        ${datum.content.text}
+        ${escape(datum.content.text)}
       </main>
       <footer>
         <span>3 days ago</span>
@@ -69,4 +70,10 @@ const renderTweets = function(tweets) {
     const $elem = createTweetElement(tweet);
     $container.prepend($elem);
   }
+}
+
+const escape = function(str) {
+  const div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
 }
