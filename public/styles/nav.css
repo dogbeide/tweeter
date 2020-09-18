@@ -1,13 +1,12 @@
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #4056A1;
+  background-color: #cf9400;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
   color: #ffffff;
   height: 120px;
-  width: 100vw;
+  width: 100%;
   padding: 1.5em;
-  position: sticky;
-  top: 0;
 }
 
 #tweeter-logo {
@@ -18,4 +17,13 @@ nav {
 
 #btn-write-new {
   align-self: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    margin-bottom: 80px;
+    background-color: #4056A1;
+    position: sticky;
+    top: 0;
+  }
 }
