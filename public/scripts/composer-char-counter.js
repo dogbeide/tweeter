@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  var counter = 0;
-  $('#tweet-text').on('keyup', function(event) {
-    counter ++;
-    console.log(counter, event);
+  $('#tweet-text').on('keydown keyup', function(event) {
+    const count = $('#tweet-text').val().length;
+    const remaining = 140 - count;
+    $(this).closest('form').find('.counter').val(remaining);
   })
 });
